@@ -3,7 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Veterinaria San Juan — Sistema de Gestión San Juan</title>
+<title>Veterinaria San Juan — Pedidos por WhatsApp y Sistema de Gestión | San Juan</title>
+<meta name="description" content="Alimentos, vacunas y atención para tu mascota. Mirá precios, pedí por WhatsApp y coordiná el turno de tu consulta en San Juan.">
+<meta name="theme-color" content="#0d9488">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Veterinaria San Juan">
+<link rel="canonical" href="https://alex451-bip.github.io/sistema-veterinaria/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>🐾</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>🐾</text></svg>">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Veterinaria San Juan">
+<meta property="og:title" content="Veterinaria San Juan — Pedidos por WhatsApp | San Juan">
+<meta property="og:description" content="Alimentos, vacunas y atención para tu mascota. Mirá precios, pedí por WhatsApp y coordiná el turno de tu consulta en San Juan.">
+<meta property="og:url" content="https://alex451-bip.github.io/sistema-veterinaria/">
+<meta property="og:locale" content="es_AR">
+<meta property="og:image" content="https://alex451-bip.github.io/sistema-veterinaria/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Catálogo y pedidos por WhatsApp de Veterinaria San Juan">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Veterinaria San Juan — Pedidos por WhatsApp | San Juan">
+<meta name="twitter:description" content="Alimentos, vacunas y atención para tu mascota. Mirá precios, pedí por WhatsApp y coordiná el turno de tu consulta en San Juan.">
+<meta name="twitter:image" content="https://alex451-bip.github.io/sistema-veterinaria/og.png">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[
+{"@type":"SoftwareApplication","@id":"https://alex451-bip.github.io/sistema-veterinaria/#app","name":"Sistema de gestión y pedidos de Veterinaria San Juan","applicationCategory":"BusinessApplication","operatingSystem":"Any (web, celular, tablet, computadora)","browserRequirements":"Requiere navegador con JavaScript","inLanguage":"es-AR","description":"Alimentos, vacunas y atención para tu mascota. Mirá precios, pedí por WhatsApp y coordiná el turno de tu consulta en San Juan.","url":"https://alex451-bip.github.io/sistema-veterinaria/","image":"https://alex451-bip.github.io/sistema-veterinaria/og.png","offers":{"@type":"Offer","price":"0","priceCurrency":"ARS","description":"Acceso gratuito de prueba. Sin instalación: funciona en el navegador y guarda los datos en el dispositivo."},"featureList":["Punto de venta","Control de stock","Cartera de clientes con fiado","Caja y reportes","Asistente de inteligencia artificial","Pedidos por WhatsApp"]},
+{"@type":"WebPage","@id":"https://alex451-bip.github.io/sistema-veterinaria/#webpage","url":"https://alex451-bip.github.io/sistema-veterinaria/","name":"Veterinaria San Juan — Pedidos por WhatsApp | San Juan","inLanguage":"es-AR","isPartOf":{"@id":"https://alex451-bip.github.io/sistema-veterinaria/#app"},"about":{"@id":"https://alex451-bip.github.io/sistema-veterinaria/#app"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://alex451-bip.github.io/sistema-veterinaria/og.png","width":1200,"height":630}}
+]}</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
 :root{
@@ -151,6 +179,25 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
 .pcard .pr{color:var(--accent);font-weight:800;font-size:14px;font-family:"Plus Jakarta Sans",sans-serif}
 .pcard .pcat{font-size:10px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
 .pcard .st{margin-top:8px;font-size:11px;display:flex;justify-content:space-between;align-items:center;gap:6px}
+/* CATALOGO PUBLICO (tienda online + pedidos por WhatsApp) */
+.cat-hero{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-radius:22px;padding:26px 24px;box-shadow:0 18px 40px -20px var(--acc-glow);position:relative;overflow:hidden;margin-bottom:16px}
+.cat-hero::after{content:"";position:absolute;right:-50px;top:-50px;width:230px;height:230px;border-radius:50%;background:rgba(255,255,255,.10)}
+.cat-hero .ch-emo{font-size:40px;line-height:1}
+.cat-hero h2{color:#fff;font-size:24px;margin:10px 0 6px;letter-spacing:-.5px;position:relative}
+.cat-hero p{color:rgba(255,255,255,.92);font-size:14.5px;max-width:660px;line-height:1.5;position:relative}
+.cat-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;position:relative}
+.cta-wa{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#25D366;color:#06301a;font-weight:800;padding:12px 20px;border-radius:14px;text-decoration:none;font-size:14.5px;box-shadow:0 10px 24px -10px rgba(37,211,102,.85);transition:.16s;border:none;cursor:pointer;font-family:inherit}
+.cta-wa:hover{transform:translateY(-2px);box-shadow:0 14px 30px -10px rgba(37,211,102,.95)}
+.cta-wa.ghost{background:rgba(255,255,255,.16);color:#fff;box-shadow:none;border:1px solid rgba(255,255,255,.35)}
+.cta-wa.ghost:hover{background:rgba(255,255,255,.26)}
+.ch-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;position:relative}
+.ch-badges span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.24);padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:700}
+.pcard.pub{cursor:default}
+.pcard .wa-mini{margin-top:10px;width:100%;padding:9px;font-size:12.5px}
+.cat-sec{margin-top:20px}
+.cat-foot{margin-top:18px;text-align:center;font-size:12.5px;color:var(--muted);line-height:1.7}
+.cat-foot b{color:var(--txt)}
+@media(max-width:560px){.cat-hero{padding:20px 16px}.cat-hero h2{font-size:20px}.cat-actions .cta-wa{flex:1 1 100%}}
 .cart{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh2);padding:18px;position:sticky;top:88px}
 .cart h3{font-size:15px;font-weight:800;display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
 .clist{max-height:300px;overflow:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
@@ -281,10 +328,12 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
       <div class="nav-lbl">Menú</div>
       <button data-v="dash" class="on"><span class="ico">📊</span> Inicio</button>
       <button data-v="vender"><span class="ico">🛒</span> Vender</button>
+      <button data-v="catalogo"><span class="ico">🛍️</span> Catálogo</button>
       <button data-v="stock"><span class="ico">📦</span> Stock</button>
       <button data-v="clientes"><span class="ico">👥</span> Clientes</button>
       <button data-v="caja"><span class="ico">💰</span> Caja</button>
       <button data-v="mod" id="navMod" style="display:none"><span class="ico">🗓️</span> <span id="navModName">Agenda de Turnos</span><span class="badge-n" id="modBadge" style="display:none">0</span></button>
+<button data-v="mod2" id="navMod2" style="display:none"><span class="ico">🐾</span> <span id="navMod2Txt">Fichas de mascotas</span><span class="bdg warn" id="mod2Badge" style="display:none">0</span></button>
       <button data-v="reportes"><span class="ico">📈</span> Reportes</button>
       <button data-v="ia"><span class="ico">🤖</span> Asistente IA</button>
       <button data-v="conf"><span class="ico">⚙️</span> Configuración</button>
@@ -309,6 +358,7 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
             <button class="hta solid" onclick="nav('vender')">🛒 Vender ahora</button>
             <button class="hta" onclick="nav('stock')">📦 Ver stock</button>
             <button class="hta" onclick="nav('ia')">🤖 Asistente</button>
+            <button class="hta" onclick="nav('catalogo')">🛍️ Ver catálogo y compartir</button>
           </div>
         </div>
         <div id="dashBanner"></div>
@@ -351,8 +401,30 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
             </div>
             <div class="sum"><span>Total</span><span class="tot" id="cTotal">$ 0</span></div>
             <button class="bt block" style="margin-top:8px;padding:14px" onclick="abrirPago()">💳 Cobrar venta</button>
+            <button class="bt sec block" style="margin-top:8px" onclick="waCarrito()">📲 Pedir por WhatsApp</button>
           </div>
         </div>
+      </section>
+
+      <!-- CATALOGO PUBLICO (vitrina de la tienda) -->
+      <section id="v-catalogo" class="hide">
+        <div class="cat-hero">
+          <div class="ch-emo">🐾</div>
+          <h2 id="catTitle">Veterinaria San Juan</h2>
+          <p id="catTexto">Alimentos, vacunas y atención para tu mascota. Mirá precios, pedí por WhatsApp y coordiná el turno de tu consulta en San Juan.</p>
+          <div class="cat-actions">
+            <a class="cta-wa" id="catWaTodo" href="#" onclick="return false">🟢 Pedir por WhatsApp</a>
+            <a class="cta-wa ghost" id="catWaTel" href="#">📞 Llamar ahora</a>
+            <a class="cta-wa ghost" href="#" onclick="nav('dash');return false">⬅ Volver al sistema</a>
+          </div>
+          <div class="ch-badges" id="catBadges"></div>
+        </div>
+        <div class="toolbar">
+          <div class="cats" id="catsCat" style="margin-bottom:0"></div>
+          <div class="input-ico" style="max-width:230px"><span class="ic">🔍</span><input id="catSearch" placeholder="Buscar en el catálogo…" oninput="renderCatalogo(this.value)"></div>
+        </div>
+        <div class="px" id="catGrid" style="margin-top:14px"></div>
+        <div class="cat-foot" id="catFoot"></div>
       </section>
 
       <!-- STOCK -->
@@ -407,13 +479,28 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
             <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
               <span id="modDates" style="display:none"></span>
               <input type="date" id="modFiltro" style="width:170px" onchange="renderMod()">
-              <button class="bt" id="modNuevoBtn">＋ Nuevo</button>
+              <button class="bt" id="modNuevoBtn" onclick="modNuevo()">＋ Nuevo</button>
             </div>
           </div>
           <div class="tbl-wrap" id="modTblWrap"><table class="tbl">
             <thead id="modHead"></thead>
             <tbody id="modBody"></tbody>
           </table></div>
+        </div>
+      </section>
+
+      <!-- SEGUNDO MODULO DEL RUBRO -->
+      <section id="v-mod2" class="hide">
+        <div class="grid g3" id="mod2Stats" style="margin-bottom:14px"></div>
+        <div class="card">
+          <div class="card-top">
+            <h3><span class="dot"></span><span id="mod2Title">Gestion</span></h3>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+              <span id="mod2P"></span>
+              <button class="bt" id="mod2NuevoBtn" onclick="mod2Nuevo()">+ Nuevo</button>
+            </div>
+          </div>
+          <div id="mod2Box"></div>
         </div>
       </section>
 
@@ -472,7 +559,19 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
               <button class="bt" onclick="guardarConf()">💾 Guardar cambios</button>
             </div>
           </div>
-          <div class="card" style="border-color:var(--bad-soft)">
+          <div class="card" style="margin-top:14px;border-color:var(--ok-soft)">
+            <div class="card-top"><h3><span class="dot" style="background:var(--ok)"></span>Tu link para compartir</h3><span class="bdg ok">Catálogo online</span></div>
+            <div class="small">Mandá este link a tus clientes por WhatsApp o ponelo en tu Instagram y Facebook. Ellos ven tus productos con precios y te hacen el pedido directo a tu WhatsApp.</div>
+            <div class="mt"></div>
+            <div class="frow"><label>Link público de tu tienda</label><input id="pubLink" readonly onclick="this.select()"></div>
+            <div class="mt"></div>
+            <div class="toolbar" style="margin:0">
+              <button class="bt" onclick="copiarLink()">📋 Copiar link</button>
+              <button class="bt sec" onclick="nav('catalogo')">🛍️ Ver mi catálogo</button>
+              <a class="bt sec" id="pubImg" href="og.png" download="mi-catalogo.png">🖼️ Descargar imagen para compartir</a>
+            </div>
+          </div>
+          <div class="card" style="margin-top:14px;border-color:var(--bad-soft)">
             <div class="card-top"><h3 style="color:var(--bad)">Zona de mantenimiento</h3></div>
             <div class="small">Eliminará permanentemente ventas, clientes, caja y stock de este navegador. Esta acción no se puede deshacer.</div>
             <div class="mt"></div>
@@ -534,6 +633,13 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
   <div class="mfoot"><button class="bt sec" onclick="cerrar('modModal')">Cancelar</button><button class="bt" onclick="guardarMod()">💾 Guardar</button></div>
 </div></div>
 
+<!-- Modal del segundo modulo -->
+<div id="mod2Modal" class="modal hide"><div class="mbox">
+  <div class="mhead"><b id="mod2ModalT">Nuevo</b><button class="icon-btn" onclick="cerrar('mod2Modal')">&#10005;</button></div>
+  <div class="mbody" id="mod2Fields"></div>
+  <div class="mfoot"><button class="bt sec" onclick="cerrar('mod2Modal')">Cancelar</button><button class="bt" onclick="guardarMod2()">Guardar</button></div>
+</div></div>
+
 <!-- Modal pago -->
 <div id="payModal" class="modal hide"><div class="mbox" style="max-width:400px">
   <div class="mhead"><b>Confirmar venta</b><button class="icon-btn" onclick="cerrar('payModal')">✕</button></div>
@@ -564,7 +670,7 @@ label{font-size:10.5px;color:var(--muted);font-weight:800;letter-spacing:.4px;di
 </div></div>
 
 <div id="toast"></div>
-<a class="whats" target="_blank" href="https://wa.me/5492645252045" title="Consultar">🟢</a>
+<a class="whats" id="fabWa" target="_blank" href="https://wa.me/5492645252045" title="Escribinos por WhatsApp" onclick="waFab(event)">💬</a>
 
 <script>
 /* CONFIG DEL RUBRO — inyectado por el generador */
@@ -576,13 +682,18 @@ var MOD_TYPE='turnos';         // '' | turnos | ven | ped | peso
 var MOD_NAV_ICON='🗓️';
 var MOD_TITLE='Agenda de Turnos';
 var MOD_CONF={"titulo": "Agenda de Turnos", "nuevo": "＋ Nuevo turno", "ent": "Mascota", "serv": "Servicio", "ph": "vacunación, consulta, desparasitación"};           // metadatos específicos del rubro
-var MOD_TIPS=[{"e": "💉", "t": "Recordá las vacunas", "a": "Usá la agenda para anotar cuándo retocar cada mascota."}, {"e": "🦴", "t": "Vendé alimento + accesorios", "a": "Packs de balanceado con juguete repiten compra y fidelizan."}, {"e": "🐾", "t": "Stock según la época", "a": "Reponé los tamaños de balanceado que más salen en la temporada."}];           // consejos específicos del rubro
+var MOD_TIPS=[{"e": "💉", "t": "Recordá las vacunas", "a": "Usá la agenda para anotar cuándo retocar cada mascota."}, {"e": "🦴", "t": "Vendé alimento + accesorios", "a": "Packs de balanceado con juguete repiten compra y fidelizan."}, {"e": "🐾", "t": "Stock según la época", "a": "Reponé los tamaños de balanceado que más salen en la temporada."}];
+var MOD2_TYPE='registro';      // '' | registro | talles
+var MOD2_ICON='🐾';
+var MOD2_TITLE='Fichas de mascotas';
+var MOD2_CONF={"titulo": "Fichas de mascotas", "nuevo": "＋ Cargar ficha", "fields": [{"k": "mascota", "l": "Mascota", "req": true, "ph": "nombre"}, {"k": "duenio", "l": "Dueño", "ph": "apellido"}, {"k": "especie", "l": "Especie", "t": "select", "opts": ["Perro", "Gato", "Otro"]}, {"k": "peso", "l": "Peso (kg)", "t": "number"}, {"k": "desp", "l": "Última desparasitación", "t": "date"}, {"k": "vacuna", "l": "Próxima vacuna", "t": "date"}], "alerta": {"k": "vacuna", "v": 0, "l": "vacuna vencida o hoy"}};
 
 var S = {
   conf:{nombre:RUBRO.nombre,tel:RUBRO.tel,rubro:RUBRO.nombre},
   productos: RUBRO.productos,
   clientes: [], ventas: [], movs: [],
-  turnos: [], lotes: [], pedidos: []
+  turnos: [], lotes: [], pedidos: [],
+  mod2: [], talles: {}
 };
 
 /* ---------- utilidades ---------- */
@@ -603,15 +714,16 @@ function stockLbl(p){ if(p.stock===undefined||p.stock>=900)return 'Disponible'; 
 
 /* ---------- persistencia ---------- */
 function load(){ try{ var s=localStorage.getItem('sgs_'+RUBRO.nombre); if(s) S=Object.assign({},S,JSON.parse(s)); }catch(e){} }
-function save(){ S.conf.nombre=RUBRO.nombre; try{ localStorage.setItem('sgs_'+RUBRO.nombre, JSON.stringify(S)); }catch(e){ toast('⚠ No se pudo guardar'); } }
+function save(){ if(!S.conf.nombre) S.conf.nombre=RUBRO.nombre; try{ localStorage.setItem('sgs_'+RUBRO.nombre, JSON.stringify(S)); }catch(e){ toast('⚠ No se pudo guardar'); } }
 load();
 (function(){ document.documentElement.style.setProperty('--acc-glow', hexA(RUBRO.acento,.22)); })();
 
 /* ---------- navegacion ---------- */
-var VIEWS=['dash','vender','stock','clientes','caja'];
+var VIEWS=['dash','vender','catalogo','stock','clientes','caja'];
 if(MOD_TYPE&&MOD_TYPE!=='peso') VIEWS.push('mod');
+if(MOD2_TYPE) VIEWS.push('mod2');
 VIEWS.push('reportes','ia','conf');
-var TITLES={dash:'Inicio',vender:'Vender',stock:'Stock',clientes:'Clientes',caja:'Caja',mod:MOD_TITLE||'Gestión',reportes:'Reportes',ia:'Asistente IA',conf:'Configuración'};
+var TITLES={dash:'Inicio',vender:'Vender',catalogo:'Catálogo',stock:'Stock',clientes:'Clientes',caja:'Caja',mod:MOD_TITLE||'Gestión',mod2:MOD2_TITLE||'Gestión',reportes:'Reportes',ia:'Asistente IA',conf:'Configuración'};
 function nav(v){
   VIEWS.forEach(function(n){ $('v-'+n).classList.toggle('hide', n!==v); });
   document.querySelectorAll('.nav button').forEach(function(b){ b.classList.toggle('on', b.dataset.v===v); });
@@ -619,10 +731,12 @@ function nav(v){
   $('side').classList.remove('open');
   if(v==='dash') renderDash();
   if(v==='vender'){ if(renderCats)renderCats(); renderPx(); llenarClientes(); }
+  if(v==='catalogo'){ renderCatsCat(); renderCatalogo(); renderCatFoot(); }
   if(v==='stock') renderStock();
   if(v==='clientes') renderClientes();
   if(v==='caja') renderCaja();
   if(v==='mod'&&MOD_TYPE){ renderMod(); updateModBadge(); }
+  if(v==='mod2'&&MOD2_TYPE){ renderMod2(); updateMod2Badge(); }
   if(v==='reportes') renderReportes();
   if(v==='ia') renderIa();
   if(v==='conf') renderConf();
@@ -713,6 +827,84 @@ function renderPx(q){
       '<span class="small">Stock: <b>'+stockText(p)+'</b></span></div></div>';
   });
   $('px').innerHTML=h;
+}
+/* ---------- catalogo publico / pedidos por WhatsApp ---------- */
+var catFiltro='Todos', catPedido=[];
+function waTel(){ return String(S.conf.tel||RUBRO.tel||'').replace(/[^0-9]/g,''); }
+function renderCatsCat(){
+  var cats=['Todos'];
+  S.productos.forEach(function(p){ if(cats.indexOf(p.cat)<0)cats.push(p.cat); });
+  $('catsCat').innerHTML=cats.map(function(c){
+    return '<button class="cat'+(c===catFiltro?' on':'')+'" onclick="catFiltro=\''+esc(c).replace(/'/g,"\\'")+'\';renderCatalogo()">'+esc(c)+'</button>';
+  }).join('');
+}
+function catQty(id){ var n=0; for(var i=0;i<catPedido.length;i++) if(catPedido[i]===id) n++; return n; }
+function catTotal(){ var s=0; catPedido.forEach(function(id){ var p=S.productos.find(function(x){return x.id===id}); if(p) s+=p.precio*catQty(id); }); return s; }
+function catToggle(id){
+  var p=S.productos.find(function(x){return x.id===id}); if(!p)return;
+  if(p.stock<900&&p.stock<=0){ toast('Sin stock de '+p.nombre); return; }
+  var i=catPedido.indexOf(id);
+  if(i>=0) catPedido.splice(i,1); else catPedido.push(id);
+  renderCatalogo($('catSearch')?$('catSearch').value:'');
+}
+function catMensaje(){
+  var t='¡Hola '+S.conf.nombre+'! 👋 Quiero hacer este pedido:\n\n';
+  catPedido.forEach(function(id){
+    var p=S.productos.find(function(x){return x.id===id}); if(!p)return;
+    t+='• '+p.nombre+' x'+catQty(id)+' = '+money(p.precio*catQty(id))+'\n';
+  });
+  t+='\n*Total estimado: '+money(catTotal())+'*\n';
+  t+='(Pedido desde '+location.origin+location.pathname+')';
+  return t;
+}
+function renderCatalogo(q){
+  q=(q||'').toLowerCase();
+  var prod=S.productos.filter(function(p){
+    var okCat=catFiltro==='Todos'||p.cat===catFiltro;
+    return okCat && (p.nombre.toLowerCase().indexOf(q)>=0||(p.cat||'').toLowerCase().indexOf(q)>=0);
+  });
+  var h='';
+  if(!prod.length) h='<div class="empty" style="grid-column:1/-1"><span class="e-ico">🔎</span><b>No encontramos ese producto</b><small>Mirá todo el catálogo o escribinos por WhatsApp.</small></div>';
+  prod.forEach(function(p){
+    var n=catQty(p.id), sel=n>0, agotado=(p.stock<900&&p.stock<=0);
+    h+='<div class="pcard pub"'+(sel?' style="border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft),var(--sh2)"':'')+'>'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start"><div class="pc-emoji">'+(p.emo||'📦')+'</div>'+
+      '<span class="bdg '+(sel?'acc':stockCls(p))+'">'+(sel?('en el pedido x'+n):stockLbl(p))+'</span></div>'+
+      '<b>'+esc(p.nombre)+'</b>'+
+      '<div class="pcat">'+(p.kg?'precio por kilo · ':'')+esc(p.cat||'General')+'</div>'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:8px">'+
+      '<span class="pr">'+money(p.precio)+(p.kg?'/kg':'')+'</span>'+
+      '<span class="small">Stock: <b>'+stockText(p)+'</b></span></div>'+
+      (agotado?'':'<button class="cta-wa wa-mini" onclick="catToggle(\''+p.id+'\')">'+(sel?'✓ Quitar del pedido':'＋ Agregar al pedido')+'</button>')+
+      '</div>';
+  });
+  $('catGrid').innerHTML=h;
+  var nprod=S.productos.length;
+  var disp=S.productos.filter(function(p){return p.stock>=900||p.stock>0}).length;
+  $('catBadges').innerHTML='<span>📦 '+nprod+' productos</span><span>✅ '+disp+' disponibles</span><span>📍 San Juan</span><span>⚡ Pedidos por WhatsApp</span>';
+  var b=$('catWaTodo');
+  b.setAttribute('href','https://wa.me/'+waTel()+'?text='+encodeURIComponent(catPedido.length?catMensaje():('¡Hola '+(S.conf.nombre||RUBRO.nombre)+'! 👋 Quiero consultar por sus productos.')));
+  b.textContent=catPedido.length?('🟢 Enviar pedido ('+catPedido.length+') → '+money(catTotal())):'🟢 Pedir por WhatsApp';
+  $('catTitle').textContent=S.conf.nombre||RUBRO.nombre;
+}
+function waFab(e){
+  if(e) e.preventDefault();
+  var msg='¡Hola '+(S.conf.nombre||RUBRO.nombre)+'! 👋 Quiero hacer una consulta.';
+  if(typeof catPedido!=='undefined'&&catPedido.length) msg=catMensaje();
+  else if(typeof carrito!=='undefined'&&carrito.length){ waCarrito(); return; }
+  window.open('https://wa.me/'+waTel()+'?text='+encodeURIComponent(msg),'_blank');
+}
+function renderCatFoot(){
+  var f=$('fabWa'); if(f) f.setAttribute('href','https://wa.me/'+waTel());
+  $('catFoot').innerHTML='<b>'+esc(S.conf.nombre||RUBRO.nombre)+'</b> · '+esc(S.conf.tel||RUBRO.tel||'')+' · San Juan, Argentina<br>'+
+    'Catálogo y sistema de gestión funcionan en este navegador, sin instalar nada. Los precios y el stock los carga el negocio.';
+}
+function waCarrito(){
+  if(!carrito.length){ toast('Agregá productos a la venta'); return; }
+  var t='¡Hola '+S.conf.nombre+'! 👋 Quiero este pedido:\n\n';
+  carrito.forEach(function(x){ t+='• '+x.n+' '+(MOD_TYPE==='peso'&&kgOf(x.id)?((x.peso||1)+' kg'):('x'+x.c))+' = '+money(x.pr*lineQty(x))+'\n'; });
+  t+='\n*Total: '+money(cartTotal())+'*\n(Enviado desde '+location.origin+location.pathname+')';
+  window.open('https://wa.me/'+waTel()+'?text='+encodeURIComponent(t),'_blank');
 }
 function addCart(id){
   var p=S.productos.find(function(x){return x.id===id});
@@ -995,6 +1187,18 @@ function borrarTodo(){
 /* ---------- CONFIG ---------- */
 function renderConf(){
   $('cNeg').value=S.conf.nombre||''; $('cTel').value=S.conf.tel||''; $('cRubro').value=S.conf.rubro||'';
+  var e=$('pubLink'); if(e) e.value=location.origin+location.pathname;
+  var f=$('fabWa'); if(f) f.setAttribute('href','https://wa.me/'+waTel());
+}
+function copiarLink(){
+  var url=location.origin+location.pathname, e=$('pubLink');
+  if(e){ e.value=url; e.select(); try{ e.setSelectionRange(0,99999); }catch(e2){} }
+  var done=function(){ toast('¡Link copiado! 📋 Mandalo por WhatsApp'); };
+  if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, fallback); }
+  else fallback();
+  function fallback(){
+    try{ document.execCommand('copy'); done(); }catch(e3){ toast('Copiá el link a mano: '+url); }
+  }
 }
 function guardarConf(){
   S.conf.nombre=$('cNeg').value||S.conf.nombre; S.conf.tel=$('cTel').value||S.conf.tel; S.conf.rubro=$('cRubro').value;
@@ -1033,7 +1237,8 @@ function modTitle(){
   return {turnos:MOD_CONF.titulo,ven:'Vencimientos',ped:MOD_CONF.titulo,peso:''}[MOD_TYPE]||'Gestión';
 }
 function modNuevoBtnLabel(){
-  return {turnos:('＋ '+(MOD_CONF.nuevo||'Nuevo turno')),ven:'＋ Nuevo lote',ped:('＋ '+(MOD_CONF.nuevo||'Nuevo'))}[MOD_TYPE];
+  var base={turnos:(MOD_CONF.nuevo||'Nuevo turno'),ven:'Nuevo lote',ped:(MOD_CONF.nuevo||'Nuevo')}[MOD_TYPE]||'Nuevo';
+  return '＋ '+String(base).replace(/^\s*[＋+]\s*/,'');
 }
 function renderMod(){
   if(!MOD_TYPE)return;
@@ -1323,11 +1528,219 @@ function iaFrase(s){ return s>=85?'¡Excelente negocio! Seguí así y crecé con
 /* ---------- init ---------- */
 $('today').textContent=today()+' · '+RUBRO.nombre;
 updateModBadge();
+(function(){ var f=$('fabWa'); if(f) f.setAttribute('href','https://wa.me/'+waTel()); })();
 nav('dash');
 window.addEventListener('keydown',function(e){
   if(e.key==='Escape'){ document.querySelectorAll('.modal').forEach(function(m){m.classList.add('hide')}); }
   if(e.key==='Enter'&&!$('payModal').classList.contains('hide')&&e.target.id==='pagCon'){ confirmarVenta(); }
 });
+
+/* ============================================================
+   SEGUNDO MODULO POR RUBRO  (registro | talles)
+   ============================================================ */
+function mod2Col(){ return S.mod2||(S.mod2=[]); }
+/* el campo de la alerta puede ser numero o fecha: si es fecha, <= hoy */
+function alertaTipo(k){
+  var F=MOD2_CONF.fields||[];
+  for(var i=0;i<F.length;i++) if(F[i].k===k) return F[i].t||'text';
+  return 'text';
+}
+function alertaHit(r,a){
+  if(!a) return false;
+  var v=r[a.k];
+  if(v===undefined||v===null||v==='') return false;
+  if(alertaTipo(a.k)==='date'){
+    var d=new Date(String(v)+'T00:00:00');
+    return !isNaN(d.getTime()) && d.getTime()<=new Date().setHours(0,0,0,0);
+  }
+  var n=parseFloat(v);
+  return !isNaN(n) && n<=a.v;
+}
+function mod2Save(){ save(); renderMod2(); updateMod2Badge(); }
+function mod2Title(){ return MOD2_CONF.titulo||MOD2_TITLE||'Gestion'; }
+
+function navMod2Setup(){
+  if(MOD2_TYPE){
+    var b=$('navMod2'); if(b) b.style.display='flex';
+    var t=$('navMod2Txt'); if(t) t.textContent=mod2Title();
+  }
+}
+navMod2Setup();
+
+function updateMod2Badge(){
+  var nb=$('mod2Badge'); if(!nb) return;
+  var c=0;
+  if(MOD2_TYPE==='registro'){
+    var d=todayISO();
+    c=mod2Col().filter(function(r){ return alertaHit(r,MOD2_CONF.alerta); }).length;
+  } else if(MOD2_TYPE==='talles'){
+    S.productos.forEach(function(p){
+      var g=tallesTotal(p.id);
+      if(g!==null && g<=0) c++;
+    });
+  }
+  nb.textContent=c; nb.style.display=c?'inline-block':'none';
+}
+
+function tallesDe(pid){ if(!S.talles) S.talles={}; if(!S.talles[pid]) S.talles[pid]={}; return S.talles[pid]; }
+function tallesTotal(pid){
+  var m=S.talles&&S.talles[pid]; if(!m) return null;
+  var t=0, n=0;
+  for(var k in m){ t+=parseFloat(m[k])||0; n++; }
+  return n? t : null;
+}
+
+function renderMod2(){
+  if(!MOD2_TYPE) return;
+  $('mod2Title').textContent=mod2Title();
+  $('mod2NuevoBtn').textContent='+ '+(MOD2_CONF.nuevo||'Nuevo');
+  $('mod2NuevoBtn').style.display=(MOD2_TYPE==='talles')?'none':'inline-block';
+  if(MOD2_TYPE==='talles') return renderTalles();
+  renderRegistro();
+}
+
+function renderRegistro(){
+  var F=MOD2_CONF.fields||[];
+  var box=$('mod2Box'), head='<thead><tr>'+F.map(function(f){return '<th>'+esc(f.l)+'</th>';}).join('');
+  if(MOD2_CONF.derivar) head+='<th>'+esc(MOD2_CONF.derivar.l)+'</th>';
+  head+='<th></th></tr></thead>';
+  var rows=mod2Col();
+  var body='<tbody id="mod2Body">';
+  if(!rows.length){
+    body+='<tr><td colspan="'+(F.length+2)+'" class="empty">Todavia no hay nada cargado.</td></tr>';
+  } else rows.forEach(function(r){
+    body+='<tr>';
+    F.forEach(function(f){
+      var v=r[f.k];
+      if(v===undefined||v==='') v='-';
+      body+='<td>'+esc(String(v))+'</td>';
+    });
+    if(MOD2_CONF.derivar){
+      var a=parseFloat(r[MOD2_CONF.derivar.a])||0, b=parseFloat(r[MOD2_CONF.derivar.b])||0;
+      body+='<td><b>'+esc(String(a-b))+'</b></td>';
+    }
+    body+='<td class="right-t"><button class="icon-btn" onclick="mod2Del(\''+r.id+'\')" title="Borrar">&#10005;</button></td></tr>';
+  });
+  body+='</tbody>';
+  box.innerHTML='<div class="tbl-wrap"><table class="tbl">'+head+body+'</table></div>';
+
+  var st='';
+  st+='<div class="card kpi"><span class="ki">&#128203;</span><div><div class="k">Cargados</div><div class="v">'+rows.length+'</div><div class="d">registros</div></div></div>';
+  if(MOD2_CONF.derivar){
+    var tot=rows.reduce(function(a,r){ return a+((parseFloat(r[MOD2_CONF.derivar.a])||0)-(parseFloat(r[MOD2_CONF.derivar.b])||0)); },0);
+    st+='<div class="card kpi"><span class="ki">&#9888;</span><div><div class="k">'+esc(MOD2_CONF.derivar.l)+'</div><div class="v">'+tot+'</div><div class="d">total</div></div></div>';
+  }
+  if(MOD2_CONF.alerta){
+    var n=rows.filter(function(r){ return alertaHit(r,MOD2_CONF.alerta); }).length;
+    st+='<div class="card kpi"><span class="ki">&#9888;&#65039;</span><div><div class="k">Para mirar</div><div class="v">'+n+'</div><div class="d">'+esc(MOD2_CONF.alerta.l||'')+'</div></div></div>';
+  }
+  $('mod2Stats').innerHTML=st;
+  updateMod2Badge();
+}
+
+function mod2Nuevo(){
+  var F=MOD2_CONF.fields||[];
+  $('mod2ModalT').textContent=MOD2_CONF.nuevo||'Nuevo';
+  var h='';
+  F.forEach(function(f){
+    var id='m2_'+f.k;
+    if(f.t==='number') h+='<div class="frow"><label>'+esc(f.l)+'</label><input id="'+id+'" type="number" step="0.01" min="0" inputmode="decimal"></div>';
+    else if(f.t==='date') h+='<div class="frow"><label>'+esc(f.l)+'</label><input id="'+id+'" type="date"></div>';
+    else if(f.t==='select') h+='<div class="frow"><label>'+esc(f.l)+'</label><select id="'+id+'">'+(f.opts||[]).map(function(o){return '<option>'+esc(o)+'</option>';}).join('')+'</select></div>';
+    else h+='<div class="frow"><label>'+esc(f.l)+'</label><input id="'+id+'" placeholder="'+esc(f.ph||'')+'"></div>';
+  });
+  $('mod2Fields').innerHTML=h;
+  abrir('mod2Modal');
+}
+
+function guardarMod2(){
+  var F=MOD2_CONF.fields||[], r={id:'r'+Date.now()};
+  var falta=null;
+  F.forEach(function(f){
+    var e=$('m2_'+f.k), v=e?e.value:'';
+    if(f.t==='number') v=parseFloat(v)||0;
+    r[f.k]=v;
+    if(f.req&&!v) falta=f.l;
+  });
+  if(falta){ toast('Falta: '+falta); return; }
+  mod2Col().unshift(r);
+  save(); cerrar('mod2Modal'); renderMod2(); toast('Guardado');
+}
+
+function mod2Del(id){
+  if(!confirm('Borrar este registro?')) return;
+  var a=mod2Col(), i=a.findIndex(function(x){return x.id===id});
+  if(i>=0) a.splice(i,1);
+  mod2Save();
+}
+
+function renderTalles(){
+  var T=MOD2_CONF.talles||[], C=MOD2_CONF.colores||[];
+  var sel=$('mod2P');
+  if(!sel){
+    sel=document.createElement('select');
+    sel.id='mod2P';
+    sel.onchange=renderTalles;
+    $('mod2Title').parentNode.parentNode.querySelector('div:last-child').insertBefore(sel, $('mod2NuevoBtn'));
+  }
+  var pid=$('mod2Psel')?$('mod2Psel').value:(sel.dataset.pid||'');
+  if(!pid||!S.talles[pid]){ var f=S.productos[0]; pid=f?f.id:''; }
+  sel.innerHTML=S.productos.map(function(p){return '<option value="'+esc(p.id)+'"'+(p.id===pid?' selected':'')+'>'+esc(p.nombre)+'</option>';}).join('');
+  sel.dataset.pid=pid;
+  var prod=S.productos.find(function(p){return p.id===pid;});
+  var m=tallesDe(pid);
+
+  var h='<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Talle</th>';
+  C.forEach(function(c){ h+='<th class="right-t">'+esc(c.n)+'</th>'; });
+  h+='<th class="right-t">Total</th></tr></thead><tbody>';
+  T.forEach(function(t){
+    h+='<tr><td><b>'+esc(t)+'</b></td>';
+    var rt=0;
+    C.forEach(function(c){
+      var k=t+'|'+c.n, v=m[k];
+      rt+=parseFloat(v)||0;
+      h+='<td class="right-t"><input type="number" min="0" inputmode="numeric" style="width:74px;text-align:right" '
+        +'value="'+(v===undefined?'':esc(String(v)))+'" onchange="setTalle(\''+pid+'\',\''+k+'\',this.value)" placeholder="-"></td>';
+    });
+    h+='<td class="right-t"><b>'+rt+'</b></td></tr>';
+  });
+  var g=0; for(var kk in m) g+=parseFloat(m[kk])||0;
+  h+='<tr><td><b>Total</b></td>';
+  C.forEach(function(c){ var s=0; T.forEach(function(t){ s+=parseFloat(m[t+'|'+c.n])||0; }); h+='<td class="right-t"><b>'+s+'</b></td>'; });
+  h+='<td class="right-t"><b>'+g+'</b></td></tr></tbody></table></div>';
+  h+='<div class="row2" style="margin-top:12px;gap:10px">'
+    +'<button class="bt sec" onclick="usarTallesComoStock(\''+pid+'\')">Usar este total como stock del producto</button>'
+    +'<span class="bdg info">Talles: '+T.join(' / ')+'</span></div>';
+  h+='<div class="small" style="margin-top:10px">Cargaste '+Object.keys(m).filter(function(k){return (parseFloat(m[k])||0)>0}).length+' celdas. Lo que dejes en blanco es que no hay.</div>';
+  $('mod2Box').innerHTML=h;
+
+  var st='';
+  st+='<div class="card kpi"><span class="ki">&#128203;</span><div><div class="k">Prendas con matriz</div><div class="v">'+Object.keys(S.talles).filter(function(id){return tallesTotal(id)!==null;}).length+'</div><div class="d">de '+S.productos.length+' productos</div></div></div>';
+  var agot=0; S.productos.forEach(function(p){ var x=tallesTotal(p.id); if(x!==null&&x<=0) agot++; });
+  st+='<div class="card kpi"><span class="ki">&#9888;&#65039;</span><div><div class="k">Sin stock en la matriz</div><div class="v">'+agot+'</div><div class="d">productos</div></div></div>';
+  var mat=tallesTotal(pid);
+  st+='<div class="card kpi"><span class="ki">&#128290;</span><div><div class="k">Total de la matriz</div><div class="v" style="color:var(--accent)">'+(mat===null?'-':mat)+'</div><div class="d">'+esc(prod.nombre)+'</div></div></div>';
+  var dif=(mat===null)?null:(mat-(prod.stock===undefined?0:prod.stock));
+  st+='<div class="card kpi"><span class="ki">&#9878;</span><div><div class="k">Stock en cat\u00e1logo</div><div class="v">'+(prod.stock===undefined?'\u221e':prod.stock)+'</div><div class="d'+(dif?' warn':'')+'">'+(dif===null?'sin matriz cargada':(dif>0?('faltan '+dif+' para igualar'):(dif<0?('sobran '+(-dif)):'ya coincide')))+'</div></div></div>';
+  $('mod2Stats').innerHTML=st;
+  updateMod2Badge();
+}
+
+function setTalle(pid,k,v){
+  var m=tallesDe(pid);
+  if(v===''||v===null||v==='') delete m[k]; else m[k]=parseFloat(v)||0;
+  mod2Save();
+  renderTalles();
+}
+function usarTallesComoStock(pid){
+  var g=tallesTotal(pid);
+  if(g===null){ toast('Todavia no cargaste la matriz'); return; }
+  var p=S.productos.find(function(x){return x.id===pid;});
+  if(!p) return;
+  p.stock=g;
+  save(); renderTalles(); renderStock(); toast('Stock de '+p.nombre+' = '+g);
+}
+
 </script>
 </body>
 </html>
